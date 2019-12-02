@@ -1,0 +1,15 @@
+name: 'action-create-once-labels'
+description: 'Create labels'
+branding:
+  icon: 'move'  
+  color: 'purple'
+inputs:
+  action-token:
+    description: 'Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}'
+    required: true
+  boards:
+    description: 'Custom definition for project labels.'
+    required: false
+runs:
+  using: 'node12'
+  main: 'index.js'

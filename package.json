@@ -1,0 +1,26 @@
+{
+  "name": "@jsdevtools/action-create-once-labels",
+  "version": "1.0.0",
+  "description": "Create labels.",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0",
+    "@jestaubach/actions": "github:JEStaubach/actions#dev"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEStaubach/action-create-once-labels"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JEStaubach/action-create-once-labels/issues"
+  },
+  "homepage": "https://github.com/JEStaubach/action-create-once-labels#readme"
+}
